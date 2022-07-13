@@ -1,0 +1,14 @@
+
+.category-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    h3 {
+        
+        margin-top: 3rem;
+        text-transform: uppercase;
+
+    }
+}
