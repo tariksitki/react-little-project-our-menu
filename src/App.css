@@ -6,3 +6,11 @@
   font-family: Arial, Helvetica, sans-serif;
   
 }
+
+:root {
+  --color-1: #024554;
+  --color-2: #53736a;
+  --color-3: #6a8c69;
+  --color-4: #a8b545;
+  --color-5: #c2c0a6;
+}

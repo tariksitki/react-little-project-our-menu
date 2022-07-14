@@ -1,7 +1,43 @@
 
 .menu-container {
-    width: 20%;
-    background-color: aquamarine;
-    border: 1px solid;
+    width: 35%;
+    // background-color: aquamarine;
+    // border: 1px solid;
+    display: flex;
+
+
+    .menu-container-left {
+        width: 40%;
+
+        .menu-image {
+            width: 14.06rem;
+            height: 9.375rem;
+            border: 2px solid var(--color-2);
+            object-fit: cover;
+        }
+    }
+
+    .menu-container-right {
+        width: 50%;
+
+        .menu-container-right-up {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px dotted grey;
+            padding: 0.3rem 0;
+
+            .menu-title {
+                text-transform: capitalize;
+
+            }
+        }
+
+        .menu-container-right-down {
+            p {
+                text-transform: capitalize;
+                margin-top: 1rem;
+            }
+        }
+    }
 
 }

@@ -1,6 +1,6 @@
 /// Önemli Not: Bizim tüm kodlarimiz index.html de toplandigi icin image lerin data.js de calismasi icin images klasörümüzü public icine attik. Diger ihtimal ise asagidaki gibi, öncelikle bu dosyada her bir fotografi tek tek import edecektik sonra her bir id icin kendine ait olan fotoyu degisken olarak kullanacaktik.
 
-import foto1 from "../helper/images/item-1.jpeg";
+// import foto1 from "../helper/images/item-1.jpeg";
 
 const menu = [
   {
